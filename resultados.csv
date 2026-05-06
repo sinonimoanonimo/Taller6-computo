@@ -1,0 +1,26 @@
+Procesos,Tamano,Tiempo_Secuencial,Tiempo_Paralelo,Speedup 
+Matriz A:
+    5     8 
+    2     2 
+
+Matriz B:
+    5    10 
+    8     9 
+
+Matriz C (Resultado Secuencial):
+   89   122 
+   26    38 
+
+Matriz C (Resultado Paralelo):
+   89   122 
+   26    38 
+
+Verificacion: CORRECTA
+Tiempo Secuencial: 0.000000 s
+Tiempo Paralelo  : 0.000445 s
+4,2,0.000000,0.000445,0.000898
+4,10,0.000017,0.002194,0.007565
+4,50,0.002008,0.001601,1.253965
+4,100,0.015396,0.009359,1.645058
+4,200,0.126914,0.074701,1.698977
+4,500,3.162082,1.293239,2.445087
